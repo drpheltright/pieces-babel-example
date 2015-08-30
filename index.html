@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styleguide!</title>
+
+    <style>
+      *{box-sizing:border-box;margin:0;padding:0}html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}html{background:#efeeed;color:#636055;font:16px/1.5 "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif}@media screen and (min-width: 48em){html{font-size:18px}}html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}.band{padding:1rem}.band--spacious{padding:3rem 1rem}.band__content{max-width:67.5em;margin-left:auto;margin-right:auto}.band__content::after{clear:both;content:"";display:table}.band--full_width{padding-left:0;padding-right:0}.band--full_width .band__content{max-width:100%;margin-left:auto;margin-right:auto}.band--full_width .band__content::after{clear:both;content:"";display:table}
+
+      
+      
+        html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}header{width:100%;background:white;border-bottom:1px solid #e2e2e2;padding:1rem}.header--overlay{position:absolute;top:0;background-color:transparent;border:none;color:white;z-index:1}.header__inner{max-width:67.5em;margin-left:auto;margin-right:auto}.header__inner::after{clear:both;content:"";display:table}
+
+      
+        html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}.branding{float:left;display:block;margin-right:2.35765%;width:65.88078%;font-family:'Fira Mono';text-transform:uppercase;font-size:1rem;line-height:3rem;letter-spacing:.1rem}.branding:last-child{margin-right:0}.branding a{display:inline-block;padding:0 1rem;color:white;text-decoration:none;-webkit-transition:background 0.2s ease-in;-moz-transition:background 0.2s ease-in;transition:background 0.2s ease-in}.branding a:hover{background:rgba(255,255,255,0.05)}@media screen and (min-width: 67.5em){.branding{float:left;display:block;margin-right:2.35765%;width:31.76157%}.branding:last-child{margin-right:0}}
+
+      
+        html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}nav{float:left;display:block;margin-right:2.35765%;width:31.76157%;margin-right:0;font-family:'Fira Mono';letter-spacing:.1rem;font-size:.8rem;line-height:3rem;text-transform:lowercase}nav:last-child{margin-right:0}nav a{-webkit-transition:background 0.2s ease-in;-moz-transition:background 0.2s ease-in;transition:background 0.2s ease-in;float:left;display:block;margin-right:16.03631%;width:41.98184%;color:white;text-decoration:none;text-align:center}nav a:last-child{margin-right:0}nav a:hover{background:rgba(255,255,255,0.1)}@media screen and (min-width: 67.5em){nav{float:left;display:block;margin-right:2.35765%;width:14.70196%;margin-left:51.17883%;margin-right:0}nav:last-child{margin-right:0}}
+
+      
+        html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}.statement{position:relative;margin-bottom:1rem}.statement__overlay{position:absolute;top:0;right:0;bottom:0;left:0;height:100%;width:100%;background-position:center bottom;background-repeat:no-repeat;background-size:cover;-webkit-filter:sepia(100%);filter:sepia(100%)}.statement__table{background:rgba(0,0,0,0.4);display:table;height:100%;width:100%}.statement__copy{display:table-cell;vertical-align:middle;text-align:center;padding:0 1rem}.statement__heading{color:white;font-family:'Oswald', 'Fira Mono';letter-spacing:.1rem;text-transform:uppercase;font-size:3rem;text-shadow:0px 0px 8px rgba(0,0,0,0.6)}.statement__strap{color:white;font-size:1.3rem;font-family:'Fira Mono';letter-spacing:.05rem;text-shadow:0px 0px 4px rgba(0,0,0,0.6)}.statement__arrow--left,.statement__arrow--right{position:absolute;bottom:0;width:50%;height:1rem;background:#efeeed}.statement__arrow--left:after,.statement__arrow--right:after{position:absolute;content:''}.statement__arrow--left{margin-left:-1rem}.statement__arrow--left:after{height:0;width:0;border-bottom:1.2rem solid #efeeed;border-right:1.2rem solid transparent;right:-1.1rem}.statement__arrow--right{right:0;margin-right:-1rem}.statement__arrow--right:after{height:0;width:0;border-bottom:1.2rem solid #efeeed;border-left:1.2rem solid transparent;left:-1.1rem}
+
+      
+        html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}.band{padding:1rem}.band--spacious{padding:3rem 1rem}.band__content{max-width:67.5em;margin-left:auto;margin-right:auto}.band__content::after{clear:both;content:"";display:table}.band--full_width{padding-left:0;padding-right:0}.band--full_width .band__content{max-width:100%;margin-left:auto;margin-right:auto}.band--full_width .band__content::after{clear:both;content:"";display:table}
+
+      
+        html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}.articles_introduction{float:left;display:block;margin-right:2.35765%;width:100%;background:#fefefe;border-bottom:1px solid #e2e2e2;font-size:1.5rem;padding:4rem 0}.articles_introduction:last-child{margin-right:0}.articles_introduction .articles_introduction__content{float:left;display:block;margin-right:2.35765%;width:82.94039%;margin-left:8.5298%}.articles_introduction .articles_introduction__content:last-child{margin-right:0}
+
+      
+    </style>
+
+    <script>
+      /*!
+loadCSS: load a CSS file asynchronously.
+[c]2014 @scottjehl, Filament Group, Inc.
+Licensed MIT
+*/
+function loadCSS(t,e,n,i){"use strict";var o=window.document.createElement("link"),s=e||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return o.rel="stylesheet",o.href=t,o.media="only x",i&&(o.onload=i),s.parentNode.insertBefore(o,s),o.onloadcssdefined=function(t){for(var e,n=0;n<a.length;n++)a[n].href&&a[n].href===o.href&&(e=!0);e?t():setTimeout(function(){o.onloadcssdefined(t)})},o.onloadcssdefined(function(){o.media=n||"all"}),o}!function(){function t(t){return t.call.apply(t.bind,arguments)}function e(t,e){if(!t)throw Error();if(2<arguments.length){var n=Array.prototype.slice.call(arguments,2);return function(){var i=Array.prototype.slice.call(arguments);return Array.prototype.unshift.apply(i,n),t.apply(e,i)}}return function(){return t.apply(e,arguments)}}function n(){return n=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?t:e,n.apply(null,arguments)}function i(t,e){this.D=t,this.m=e||t,this.F=this.m.document}function o(t,e,n){t=t.F.getElementsByTagName(e)[0],t||(t=document.documentElement),t.insertBefore(n,t.lastChild)}function s(t,e,n){e=e||[],n=n||[];for(var i=t.className.split(/\s+/),o=0;o<e.length;o+=1){for(var s=!1,a=0;a<i.length;a+=1)if(e[o]===i[a]){s=!0;break}s||i.push(e[o])}for(e=[],o=0;o<i.length;o+=1){for(s=!1,a=0;a<n.length;a+=1)if(i[o]===n[a]){s=!0;break}s||e.push(i[o])}t.className=e.join(" ").replace(/\s+/g," ").replace(/^\s+|\s+$/,"")}function a(t,e){for(var n=t.className.split(/\s+/),i=0,o=n.length;o>i;i++)if(n[i]==e)return!0;return!1}function r(t){if("string"==typeof t.da)return t.da;var e=t.m.location.protocol;return"about:"==e&&(e=t.D.location.protocol),"https:"==e?"https:":"http:"}function h(t,e){var n=t.createElement("link",{rel:"stylesheet",href:e,media:"all"}),i=!1;n.onload=function(){i||(i=!0)},n.onerror=function(){i||(i=!0)},o(t,"head",n)}function l(t,e,n,i){var o=t.F.getElementsByTagName("head")[0];if(o){var s=t.createElement("script",{src:e}),a=!1;return s.onload=s.onreadystatechange=function(){a||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState||(a=!0,n&&n(null),s.onload=s.onreadystatechange=null,"HEAD"==s.parentNode.tagName&&o.removeChild(s))},o.appendChild(s),setTimeout(function(){a||(a=!0,n&&n(Error("Script load timeout")))},i||5e3),s}return null}function f(t){this.ca=t||"-"}function u(t,e){this.V=t,this.N=4,this.H="n";var n=(e||"n4").match(/^([nio])([1-9])$/i);n&&(this.H=n[1],this.N=parseInt(n[2],10))}function c(t){return t.H+t.N}function p(t){var e=4,n="n",i=null;return t&&((i=t.match(/(normal|oblique|italic)/i))&&i[1]&&(n=i[1].substr(0,1).toLowerCase()),(i=t.match(/([1-9]00|normal|bold)/i))&&i[1]&&(/bold/i.test(i[1])?e=7:/[1-9]00/.test(i[1])&&(e=parseInt(i[1].substr(0,1),10)))),n+e}function d(t,e){this.a=t,this.h=t.m.document.documentElement,this.J=e,this.f="wf",this.e=new f("-"),this.Z=!1!==e.events,this.u=!1!==e.classes}function g(t){t.u&&s(t.h,[t.e.d(t.f,"loading")]),v(t,"loading")}function m(t){if(t.u){var e=a(t.h,t.e.d(t.f,"active")),n=[],i=[t.e.d(t.f,"loading")];e||n.push(t.e.d(t.f,"inactive")),s(t.h,n,i)}v(t,"inactive")}function v(t,e,n){t.Z&&t.J[e]&&(n?t.J[e](n.getName(),c(n)):t.J[e]())}function y(){this.t={}}function w(t,e,n){var i,o=[];for(i in e)if(e.hasOwnProperty(i)){var s=t.t[i];s&&o.push(s(e[i],n))}return o}function b(t,e){this.a=t,this.q=e,this.j=this.a.createElement("span",{"aria-hidden":"true"},this.q)}function k(t,e){var n,i=t.j;n=[];for(var o=e.V.split(/,\s*/),s=0;s<o.length;s++){var a=o[s].replace(/['"]/g,"");n.push(-1==a.indexOf(" ")?a:"'"+a+"'")}n=n.join(","),o="normal","o"===e.H?o="oblique":"i"===e.H&&(o="italic"),i.style.cssText="display:block;position:absolute;top:-9999px;left:-9999px;font-size:300px;width:auto;height:auto;line-height:normal;margin:0;padding:0;font-variant:normal;white-space:nowrap;font-family:"+n+";"+("font-style:"+o+";font-weight:"+(e.N+"00")+";")}function N(t){o(t.a,"body",t.j)}function x(t,e,n,i,o,s,a){this.O=t,this.ba=e,this.a=n,this.g=i,this.q=a||"BESbswy",this.s={},this.M=o||3e3,this.T=s||null,this.C=this.B=this.w=this.v=null,this.v=new b(this.a,this.q),this.w=new b(this.a,this.q),this.B=new b(this.a,this.q),this.C=new b(this.a,this.q),k(this.v,new u(this.g.getName()+",serif",c(this.g))),k(this.w,new u(this.g.getName()+",sans-serif",c(this.g))),k(this.B,new u("serif",c(this.g))),k(this.C,new u("sans-serif",c(this.g))),N(this.v),N(this.w),N(this.B),N(this.C)}function S(){if(null===G){var t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent);G=!!t&&(536>parseInt(t[1],10)||536===parseInt(t[1],10)&&11>=parseInt(t[2],10))}return G}function _(t,e,n){for(var i in $)if($.hasOwnProperty(i)&&e===t.s[$[i]]&&n===t.s[$[i]])return!0;return!1}function j(t){var e,n=t.v.j.offsetWidth,i=t.w.j.offsetWidth;(e=n===t.s.serif&&i===t.s["sans-serif"])||(e=S()&&_(t,n,i)),e?M()-t.ea>=t.M?S()&&_(t,n,i)&&(null===t.T||t.T.hasOwnProperty(t.g.getName()))?T(t,t.O):T(t,t.ba):C(t):T(t,t.O)}function C(t){setTimeout(n(function(){j(this)},t),50)}function T(t,e){setTimeout(n(function(){this.v.remove(),this.w.remove(),this.B.remove(),this.C.remove(),e(this.g)},t),0)}function E(t,e,n){this.a=t,this.o=e,this.K=0,this.X=this.S=!1,this.M=n}function A(t){0==--t.K&&t.S&&(t.X?(t=t.o,t.u&&s(t.h,[t.e.d(t.f,"active")],[t.e.d(t.f,"loading"),t.e.d(t.f,"inactive")]),v(t,"active")):m(t.o))}function B(t){this.D=t,this.p=new y,this.U=0,this.P=this.Q=!0}function W(t,e,i,o,a){var r=0==--t.U;(t.P||t.Q)&&setTimeout(function(){var t=a||null,h=o||null||{};if(0===i.length&&r)m(e.o);else{e.K+=i.length,r&&(e.S=r);var l,f=[];for(l=0;l<i.length;l++){var u=i[l],p=h[u.getName()],d=e.o,g=u;d.u&&s(d.h,[d.e.d(d.f,g.getName(),c(g).toString(),"loading")]),v(d,"fontloading",g),d=null,d=new x(n(e.$,e),n(e.aa,e),e.a,u,e.M,t,p),f.push(d)}for(l=0;l<f.length;l++)f[l].start()}},0)}function F(t,e,n){var i=[],o=n.timeout;g(e);var i=w(t.p,n,t.a),s=new E(t.a,e,o);for(t.U=i.length,e=0,n=i.length;n>e;e++)i[e].load(function(e,n,i){W(t,s,e,n,i)})}function I(t,e,n){this.I=t?t:e+J,this.k=[],this.L=[],this.Y=n||""}function O(t){this.k=t,this.W=[],this.G={}}function q(t,e){this.a=t,this.c=e}function D(t,e){this.a=t,this.c=e,this.R=[]}function L(t,e){this.a=t,this.c=e}function P(t,e){this.a=t,this.c=e}function H(t,e){this.a=t,this.c=e}var M=Date.now||function(){return+new Date};i.prototype.createElement=function(t,e,n){if(t=this.F.createElement(t),e)for(var i in e)e.hasOwnProperty(i)&&("style"==i?t.style.cssText=e[i]:t.setAttribute(i,e[i]));return n&&t.appendChild(this.F.createTextNode(n)),t},f.prototype.d=function(){for(var t=[],e=0;e<arguments.length;e++)t.push(arguments[e].replace(/[\W_]+/g,"").toLowerCase());return t.join(this.ca)},u.prototype.getName=function(){return this.V},b.prototype.remove=function(){var t=this.j;t.parentNode&&t.parentNode.removeChild(t)};var $={ga:"serif",fa:"sans-serif"},G=null;x.prototype.start=function(){this.s.serif=this.B.j.offsetWidth,this.s["sans-serif"]=this.C.j.offsetWidth,this.ea=M(),j(this)},E.prototype.$=function(t){var e=this.o;e.u&&s(e.h,[e.e.d(e.f,t.getName(),c(t).toString(),"active")],[e.e.d(e.f,t.getName(),c(t).toString(),"loading"),e.e.d(e.f,t.getName(),c(t).toString(),"inactive")]),v(e,"fontactive",t),this.X=!0,A(this)},E.prototype.aa=function(t){var e=this.o;if(e.u){var n=a(e.h,e.e.d(e.f,t.getName(),c(t).toString(),"active")),i=[],o=[e.e.d(e.f,t.getName(),c(t).toString(),"loading")];n||i.push(e.e.d(e.f,t.getName(),c(t).toString(),"inactive")),s(e.h,i,o)}v(e,"fontinactive",t),A(this)},B.prototype.load=function(t){this.a=new i(this.D,t.context||this.D),this.Q=!1!==t.events,this.P=!1!==t.classes,F(this,new d(this.a,t),t)};var J="//fonts.googleapis.com/css";I.prototype.d=function(){if(0==this.k.length)throw Error("No fonts to load!");if(-1!=this.I.indexOf("kit="))return this.I;for(var t=this.k.length,e=[],n=0;t>n;n++)e.push(this.k[n].replace(/ /g,"+"));return t=this.I+"?family="+e.join("%7C"),0<this.L.length&&(t+="&subset="+this.L.join(",")),0<this.Y.length&&(t+="&text="+encodeURIComponent(this.Y)),t};var K={latin:"BESbswy",cyrillic:"&#1081;&#1103;&#1046;",greek:"&#945;&#946;&#931;",khmer:"&#x1780;&#x1781;&#x1782;",Hanuman:"&#x1780;&#x1781;&#x1782;"},R={thin:"1",extralight:"2","extra-light":"2",ultralight:"2","ultra-light":"2",light:"3",regular:"4",book:"4",medium:"5","semi-bold":"6",semibold:"6","demi-bold":"6",demibold:"6",bold:"7","extra-bold":"8",extrabold:"8","ultra-bold":"8",ultrabold:"8",black:"9",heavy:"9",l:"3",r:"4",b:"7"},U={i:"i",italic:"i",n:"n",normal:"n"},Q=/^(thin|(?:(?:extra|ultra)-?)?light|regular|book|medium|(?:(?:semi|demi|extra|ultra)-?)?bold|black|heavy|l|r|b|[1-9]00)?(n|i|normal|italic)?$/;O.prototype.parse=function(){for(var t=this.k.length,e=0;t>e;e++){var n=this.k[e].split(":"),i=n[0].replace(/\+/g," "),o=["n4"];if(2<=n.length){var s,a=n[1];if(s=[],a)for(var a=a.split(","),r=a.length,h=0;r>h;h++){var l;if(l=a[h],l.match(/^[\w-]+$/))if(l=Q.exec(l.toLowerCase()),null==l)l="";else{var f;if(f=l[1],null==f||""==f)f="4";else{var c=R[f];f=c?c:isNaN(f)?"4":f.substr(0,1)}l=l[2],l=[null==l||""==l?"n":U[l],f].join("")}else l="";l&&s.push(l)}0<s.length&&(o=s),3==n.length&&(n=n[2],s=[],n=n?n.split(","):s,0<n.length&&(n=K[n[0]])&&(this.G[i]=n))}for(this.G[i]||(n=K[i])&&(this.G[i]=n),n=0;n<o.length;n+=1)this.W.push(new u(i,o[n]))}};var V={Arimo:!0,Cousine:!0,Tinos:!0};q.prototype.load=function(t){for(var e=this.a,n=new I(this.c.api,r(e),this.c.text),i=this.c.families,o=i.length,s=0;o>s;s++){var a=i[s].split(":");3==a.length&&n.L.push(a.pop());var l="";2==a.length&&""!=a[1]&&(l=":"),n.k.push(a.join(l))}i=new O(i),i.parse(),h(e,n.d()),t(i.W,i.G,V)},D.prototype.A=function(t){var e=this.a;return r(this.a)+(this.c.api||"//f.fontdeck.com/s/css/js/")+(e.m.location.hostname||e.D.location.hostname)+"/"+t+".js"},D.prototype.load=function(t){var e=this.c.id,n=this.a.m,i=this;e?(n.__webfontfontdeckmodule__||(n.__webfontfontdeckmodule__={}),n.__webfontfontdeckmodule__[e]=function(e,n){for(var o=0,s=n.fonts.length;s>o;++o){var a=n.fonts[o];i.R.push(new u(a.name,p("font-weight:"+a.weight+";font-style:"+a.style)))}t(i.R)},l(this.a,this.A(e),function(e){e&&t([])})):t([])},L.prototype.A=function(t){return(this.c.api||"https://use.typekit.net")+"/"+t+".js"},L.prototype.load=function(t){var e=this.c.id,n=this.a.m;e?l(this.a,this.A(e),function(e){if(e)t([]);else if(n.Typekit&&n.Typekit.config&&n.Typekit.config.fn){e=n.Typekit.config.fn;for(var i=[],o=0;o<e.length;o+=2)for(var s=e[o],a=e[o+1],r=0;r<a.length;r++)i.push(new u(s,a[r]));try{n.Typekit.load({events:!1,classes:!1,async:!0})}catch(h){}t(i)}},2e3):t([])},P.prototype.A=function(t,e){var n=r(this.a),i=(this.c.api||"fast.fonts.net/jsapi").replace(/^.*http(s?):(\/\/)?/,"");return n+"//"+i+"/"+t+".js"+(e?"?v="+e:"")},P.prototype.load=function(t){var e=this.c.projectId,n=this.c.version;if(e){var i=this.a.m;l(this.a,this.A(e,n),function(n){if(n)t([]);else if(i["__mti_fntLst"+e]){n=i["__mti_fntLst"+e]();var o=[];if(n)for(var s=0;s<n.length;s++)o.push(new u(n[s].fontfamily));t(o)}else t([])}).id="__MonotypeAPIScript__"+e}else t([])},H.prototype.load=function(t){var e,n,i=this.c.urls||[],o=this.c.families||[],s=this.c.testStrings||{};for(e=0,n=i.length;n>e;e++)h(this.a,i[e]);for(i=[],e=0,n=o.length;n>e;e++){var a=o[e].split(":");if(a[1])for(var r=a[1].split(","),l=0;l<r.length;l+=1)i.push(new u(a[0],r[l]));else i.push(new u(a[0]))}t(i,s)};var X=new B(window);X.p.t.custom=function(t,e){return new H(e,t)},X.p.t.fontdeck=function(t,e){return new D(e,t)},X.p.t.monotype=function(t,e){return new P(e,t)},X.p.t.typekit=function(t,e){return new L(e,t)},X.p.t.google=function(t,e){return new q(e,t)};var Y={load:n(X.load,X)};"function"==typeof define&&define.amd?define(function(){return Y}):"undefined"!=typeof module&&module.exports?module.exports=Y:(window.WebFont=Y,window.WebFontConfig&&X.load(window.WebFontConfig))}(),loadCSS("/assets/application.css"),WebFont.load({google:{families:["Fira Mono:400,700","Oswald"]}});
+    </script>
+
+    <noscript>
+      <link rel="stylesheet" href="/assets/application.css" />
+    </noscript>
+  </head>
+  <body>
+    <header class="header--overlay">
+  <div class="header__inner">
+    <div class="branding">
+  <a href="/">+POSITIVE BRAND</a>
+</div>
+<nav>
+  
+    <a href="/"
+       class="nav__item--active">Home</a>
+  
+    <a href="/about.html"
+       >About</a>
+  
+</nav>
+
+  </div>
+</header>
+<div class="statement"
+     style="min-height: 680px">
+  <div class="statement__overlay"
+       style="background-image: url(/assets/images/straightouttacompton.jpg)">
+    <div class="statement__table"
+         >
+      <div class="statement__copy">
+        <div class="statement__heading">
+          Design from the Streets
+        </div>
+
+        <div class="statement__strap">
+          Premier digital design for urban endeavours.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="statement__arrow--left"></div>
+  <div class="statement__arrow--right"></div>
+</div>
+<div class="band
+            band--spacious
+            ">
+  <div class="band__content">
+    <div class="articles_introduction">
+  <div class="articles_introduction__content">
+    We love life. The fact we love life so much means we will make your life happier. All you gotta do is buy our product.
+  </div>
+</div>
+
+
+  </div>
+</div>
+<div class="band
+            band--spacious
+            band--full_width">
+  <div class="band__content">
+    <article>
+  <div class="article__body">
+    <h1 class="article__title">
+      We deliver the top game
+    </h1>
+
+    <div class="article__content">
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus, tellus
+in condimentum varius, erat mi facilisis magna, vel vestibulum felis enim ut
+eros. Donec nisl magna, pellentesque ac urna nec, egestas sollicitudin ante.
+Nunc pellentesque ligula nec risus vulputate, vel sollicitudin mi lacinia.</p>
+
+<p>Ut at felis ligula. Donec nec pretium ex, quis feugiat felis. Ut lectus nisl,
+luctus ac erat a, luctus consectetur nunc. Vivamus eu erat consectetur tellus
+pulvinar fringilla eu at turpis.</p>
+
+    </div>
+  </div>
+
+  
+    <div class="article__image"
+         style="background-image: url(/assets/images/urban_1.jpg);"></div>
+  
+</article>
+<article>
+  <div class="article__body">
+    <h1 class="article__title">
+      Look no further
+    </h1>
+
+    <div class="article__content">
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus, tellus
+in condimentum varius, erat mi facilisis magna, vel vestibulum felis enim ut
+eros. Donec nisl magna, pellentesque ac urna nec, egestas sollicitudin ante.
+Nunc pellentesque ligula nec risus vulputate, vel sollicitudin mi lacinia.</p>
+
+<p>Ut at felis ligula. Donec nec pretium ex, quis feugiat felis. Ut lectus nisl,
+luctus ac erat a, luctus consectetur nunc. Vivamus eu erat consectetur tellus
+pulvinar fringilla eu at turpis.</p>
+
+    </div>
+  </div>
+
+  
+    <div class="article__image"
+         style="background-image: url(/assets/images/urban_2.jpg);"></div>
+  
+</article>
+<article>
+  <div class="article__body">
+    <h1 class="article__title">
+      We know how to execute
+    </h1>
+
+    <div class="article__content">
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus, tellus
+in condimentum varius, erat mi facilisis magna, vel vestibulum felis enim ut
+eros. Donec nisl magna, pellentesque ac urna nec, egestas sollicitudin ante.
+Nunc pellentesque ligula nec risus vulputate, vel sollicitudin mi lacinia.</p>
+
+<p>Ut at felis ligula. Donec nec pretium ex, quis feugiat felis. Ut lectus nisl,
+luctus ac erat a, luctus consectetur nunc. Vivamus eu erat consectetur tellus
+pulvinar fringilla eu at turpis.</p>
+
+    </div>
+  </div>
+
+  
+    <div class="article__image"
+         style="background-image: url(/assets/images/urban_3.jpg);"></div>
+  
+</article>
+
+  </div>
+</div>
+<div class="band
+            
+            ">
+  <div class="band__content">
+    <div class="card">
+  <div class="card__img" style="background-image: url(/assets/images/food_1.jpg);">
+    <!-- <img src="" alt="/assets/images/food_1.jpg" /> -->
+  </div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url(/assets/images/food_2.jpg);">
+    <!-- <img src="" alt="/assets/images/food_2.jpg" /> -->
+  </div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url(/assets/images/food_3.jpg);">
+    <!-- <img src="" alt="/assets/images/food_3.jpg" /> -->
+  </div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url(/assets/images/food_4.jpg);">
+    <!-- <img src="" alt="/assets/images/food_4.jpg" /> -->
+  </div>
+</div>
+
+  </div>
+</div>
+<footer>
+  <div class="footer__inner">
+    <div class="footer__about">Some footer text for +POSITIVE BRAND.</div>
+  </div>
+</footer>
+
+
+    <script src="/assets/app.js" defer></script>
+  </body>
+</html>
